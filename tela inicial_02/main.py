@@ -1,4 +1,4 @@
-class RetroConsole:
+class Retro_Gamer:
     def __init__(self):
         self.running = False
 
@@ -6,7 +6,7 @@ class RetroConsole:
         print("💾 Ligando console... Tela inicial: PRESS START")
         self.running = True
 
-    def LOAD_CARTRIDGE(self, game):
+    def LOAD_NO_CARTUCHO(self, game):
         if self.running:
             print(f"🎮 {game.upper()} carregado com sucesso! Pronto para jogar.")
         else:
