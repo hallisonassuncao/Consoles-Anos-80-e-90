@@ -19,13 +19,13 @@ class Retro_Gamer:
             print(" O console está desligado.")
 
     def GAME_OVER(self):
-        print("💀 Game Over. Insira outra ficha ou pressione RESET.")
+        print("💀 Game Over. Insira outro CARTUCHO ou pressione RESET.")
         self.running = False
 
 
 # Exemplo de uso:
-neo_geo = RetroConsole()
+neo_geo = Retro_Gamer()
 neo_geo.POWER_ON()
-neo_geo.LOAD_CARTRIDGE("metal slug")
+neo_geo.LOAD_NO_CARTUCHO("STREET OF RAGE 2")
 neo_geo.PRESS_START()
 neo_geo.GAME_OVER()
