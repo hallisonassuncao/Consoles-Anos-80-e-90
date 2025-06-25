@@ -24,8 +24,8 @@ class Retro_Gamer:
 
 
 # Exemplo de uso:
-neo_geo = Retro_Gamer()
-neo_geo.POWER_ON()
-neo_geo.LOAD_NO_CARTUCHO("STREET OF RAGE 2")
-neo_geo.PRESS_START()
-neo_geo.GAME_OVER()
+Mega_Drive = Retro_Gamer()
+Mega_Drive.POWER_ON()
+Mega_Drive.LOAD_NO_CARTUCHO("STREET OF RAGE 2")
+Mega_Drive.PRESS_START()
+Mega_Drive.GAME_OVER()
