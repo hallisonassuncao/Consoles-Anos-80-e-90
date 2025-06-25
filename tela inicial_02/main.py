@@ -14,7 +14,7 @@ class RetroConsole:
 
     def PRESS_START(self):
         if self.running:
-            print("🔘 Jogo iniciado! Boa sorte, jogador 1.")
+            print("🔘 Jogo iniciado! Boa sorte!")
         else:
             print(" O console está desligado.")
 
