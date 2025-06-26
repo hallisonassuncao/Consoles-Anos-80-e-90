@@ -1,4 +1,4 @@
-class Retro_Gamer:
+class Hallison_Gamer:
     def __init__(self):
         self.running = False
 
@@ -24,7 +24,7 @@ class Retro_Gamer:
 
 
 # Exemplo de uso:
-Mega_Drive = Retro_Gamer()
+Mega_Drive = Hallison_Gamer()
 Mega_Drive.POWER_ON()
 Mega_Drive.LOAD_NO_CARTUCHO("STREET OF RAGE 2")
 Mega_Drive.PRESS_START()
